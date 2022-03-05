@@ -1,0 +1,20 @@
+void main() {
+
+ num s1 = 56;
+ num s2 = 87; 
+ num s3 = 46;
+ num s4 = 75;
+ num s5 = 87;
+ num total = 500;
+ num obtainedmarks = (s1 + s2 + s3 + s4 + s5);
+ num percentage = obtainedmarks*100/total;
+  if(percentage>80){
+    print ("A");
+}
+  else{
+    print("B");
+  }
+  
+  print(percentage);
+  print ("my percentage is : ${percentage}%");
+}
